@@ -11,9 +11,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.meyacom.stone</groupId>
-    <artifactId>stone-starter</artifactId>
+    <artifactId>stone-parent</artifactId>
     <packaging>pom</packaging>
-    <name>meyacom stone parent</name>
+    <name>stone parent</name>
+    <version>0.0.1.SNAPSHOT</version>
     <description>麦亚信微服务基石框架 parent模块</description>
 
     <dependencyManagement>
@@ -22,8 +23,9 @@
                 <groupId>com.meyacom.stone</groupId>
                 <artifactId>stone-dependencies</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
-
         </dependencies>
     </dependencyManagement>
 </project>

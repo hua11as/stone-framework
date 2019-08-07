@@ -8,7 +8,7 @@
     <artifactId>stone-dependencies</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>meyacom stone dependencies</name>
+    <name>stone dependencies</name>
     <description>麦亚信微服务基石框架约定配置</description>
 
     <properties>
