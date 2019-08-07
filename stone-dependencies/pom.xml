@@ -13,26 +13,18 @@
 
     <properties>
         <spring-cloud-dependencies.version>Greenwich.SR2</spring-cloud-dependencies.version>
-        <spring-cloud-commons.version>2.1.2.RELEASE</spring-cloud-commons.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
-<!--            <dependency>-->
-<!--                <groupId>org.springframework.cloud</groupId>-->
-<!--                <artifactId>spring-cloud-dependencies</artifactId>-->
-<!--                <version>${spring-cloud-dependencies.version}</version>-->
-<!--                <type>pom</type>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud-dependencies.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starters</artifactId>
-            <version>1.5.2.RELEASE</version>
-        </dependency>
-    </dependencies>
 </project>

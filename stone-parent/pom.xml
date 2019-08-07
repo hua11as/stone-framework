@@ -3,15 +3,27 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>stone-framework</artifactId>
-        <groupId>com.meyacom.stone</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.6.RELEASE</version>
+        <relativePath/>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>stone-parent</artifactId>
+    <groupId>com.meyacom.stone</groupId>
+    <artifactId>stone-starter</artifactId>
     <packaging>pom</packaging>
     <name>meyacom stone parent</name>
     <description>麦亚信微服务基石框架 parent模块</description>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.meyacom.stone</groupId>
+                <artifactId>stone-dependencies</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 </project>
