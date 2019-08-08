@@ -13,9 +13,11 @@
 
     <properties>
         <spring-cloud-dependencies.version>Greenwich.SR2</spring-cloud-dependencies.version>
+        <fastjson.version>1.2.58</fastjson.version>
     </properties>
 
     <dependencyManagement>
+        <!-- spring cloud -->
         <dependencies>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -24,7 +26,11 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

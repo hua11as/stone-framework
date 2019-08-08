@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>stone-amqp</artifactId>
+    <packaging>jar</packaging>
+    <name>stone amqp</name>
 
-
+    <dependencies>
+        <!-- spring amqp - rabbitMQ-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+    </dependencies>
 </project>
