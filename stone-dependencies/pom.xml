@@ -6,7 +6,7 @@
 
     <groupId>com.meyacom.stone</groupId>
     <artifactId>stone-dependencies</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1.SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>stone dependencies</name>
     <description>麦亚信微服务基石框架约定配置</description>
@@ -52,6 +52,11 @@
             <dependency>
                 <groupId>com.meyacom.stone</groupId>
                 <artifactId>stone-redis</artifactId>
+                <version>${meyacom-stone.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.meyacom.stone</groupId>
+                <artifactId>stone-starter-service</artifactId>
                 <version>${meyacom-stone.version}</version>
             </dependency>
         </dependencies>
