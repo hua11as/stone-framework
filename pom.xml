@@ -14,6 +14,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>stone-amqp</module>
+        <module>stone-redis</module>
     </modules>
     <packaging>pom</packaging>
     <name>stone framework</name>

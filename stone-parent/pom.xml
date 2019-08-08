@@ -17,10 +17,6 @@
     <version>0.0.1.SNAPSHOT</version>
     <description>麦亚信微服务基石框架 parent模块</description>
 
-    <properties>
-
-    </properties>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -46,7 +42,6 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
