@@ -5,4 +5,3 @@ cd ../stone-parent
 mvn clean install -Dmaven.test.skip=true
 cd ..
 mvn clean install -Dmaven.test.skip=true
-end
