@@ -9,13 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.meyacom.stone</groupId>
     <artifactId>stone-framework</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>stone-amqp</module>
         <module>stone-redis</module>
-        <module>stone-starter-service</module>
+        <module>stone-micro-service</module>
     </modules>
     <packaging>pom</packaging>
     <name>stone framework</name>

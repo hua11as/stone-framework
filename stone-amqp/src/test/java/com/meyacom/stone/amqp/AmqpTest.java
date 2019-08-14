@@ -22,7 +22,8 @@ public class AmqpTest {
 
     @Test
     public void sendTest() {
-        rabbitTemplate.convertAndSend("hello.world.queue", "gaga");
+//        rabbitTemplate.convertAndSend("hello.world.queue", "gaga");
+        rabbitTemplate.convertAndSend("amq.direct", "hello.world.queue", "gaga");
     }
 
     @Test

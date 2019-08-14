@@ -3,8 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stone-amqp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stone-micro-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stone-micro-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stone-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stone-redis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/stone-starter-service" charset="UTF-8" />
   </component>
 </project>
