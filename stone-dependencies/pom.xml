@@ -13,7 +13,7 @@
 
     <properties>
         <spring-cloud-dependencies.version>Greenwich.SR2</spring-cloud-dependencies.version>
-        <fastjson.version>1.2.58</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <spring-cloud-eureka.version>2.1.2.RELEASE</spring-cloud-eureka.version>
         <meyacom-stone.version>0.0.1-SNAPSHOT</meyacom-stone.version>
         <mybatis.version>2.1.0</mybatis.version>
